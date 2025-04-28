@@ -51,6 +51,10 @@ app.use('/api/orders', OrderRoute);
 
 app.use('/api/addresses', AddressRoute);
 
+app.get('/', (req, res) => {
+    res.send('Welcome to the Admin Backend');
+});
+
 if (require.main === module) {
     app.listen(PORT, () => console.log(`http://localhost:${PORT}`));
 };
