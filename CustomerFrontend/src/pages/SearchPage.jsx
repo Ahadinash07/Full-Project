@@ -4,7 +4,7 @@ import ProductCard from '../components/ProductCard';
 import axios from 'axios';
 
 
-const API_URL = "http://localhost:5376";
+const API_URL = "https://e-commbackend.vercel.app";
 
 const SearchPage = () => {
   const location = useLocation();

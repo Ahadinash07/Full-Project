@@ -5,7 +5,7 @@ import { AuthContext } from '../context/AuthContext';
 import { FiPackage } from 'react-icons/fi';
 
 
-const API_URL = "http://localhost:5376"
+const API_URL = "https://e-commbackend.vercel.app"
 
 const OrdersPage = () => {
   const { user } = useContext(AuthContext);

@@ -6,7 +6,7 @@ import { CountrySelect, StateSelect, CitySelect } from 'react-country-state-city
 import { FaUser, FaEnvelope, FaPhone, FaMapMarkerAlt, FaCity, FaGlobe, FaFlag, FaMailBulk } from 'react-icons/fa';
 
 
-const API_URL = "http://localhost:5376";
+const API_URL = "https://e-commbackend.vercel.app";
 
 const ProfileInfoForm = ({ user }) => {
     const { updateUser } = useContext(AuthContext);

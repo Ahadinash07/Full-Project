@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import axios from 'axios';
 import { FaLock } from 'react-icons/fa';
 
-const API_URL = "http://localhost:5376";
+const API_URL = "https://e-commbackend.vercel.app";
 
 const PasswordForm = () => {
   const [formData, setFormData] = useState({

@@ -3,7 +3,7 @@ import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
-const API_URL = "http://localhost:5376"
+const API_URL = "https://e-commbackend.vercel.app"
 
 // Placeholder image/icon mapping
 const categoryImages = {

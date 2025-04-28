@@ -7,7 +7,7 @@ import ProductCard from '../components/ProductCard';
 import { AuthContext } from '../context/AuthContext';
 
 
-const API_URL = "http://localhost:5376";
+const API_URL = "https://e-commbackend.vercel.app";
 
 const ProductPage = () => {
   const { productId } = useParams();

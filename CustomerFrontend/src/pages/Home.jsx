@@ -4,7 +4,7 @@ import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion'
 import ProductCard from '../components/ProductCard';
 import CategorySection from '../components/CategorySection';
 
-const API_URL = "http://localhost:5376"
+const API_URL = "https://e-commbackend.vercel.app"
 
 const Home = () => {
   const [featuredProducts, setFeaturedProducts] = useState([]);

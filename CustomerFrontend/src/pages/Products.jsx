@@ -4,7 +4,7 @@ import axios from 'axios';
 import { motion } from 'framer-motion';
 import ProductCard from '../components/ProductCard';
 
-const API_URL = "http://localhost:5376";
+const API_URL = "https://e-commbackend.vercel.app";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
